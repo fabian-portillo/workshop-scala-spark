@@ -1,0 +1,160 @@
+# workshop-scala-spark
+This is a guide for setting up Scala and Spark environments in your local machine. 
+
+## Introduction.
+This guide has been created for windows users so the configuration may change depending of the O.S you are using.
+
+## Prerequisites.
+Java 1.8. 
+Install 7-zip tool. (Optional)
+
+## Requisites.
+Download and install Scala 2.11.12 version.
+Download and install Apache Spark 2.3 version.
+Install IntelliJ IDEA community edition.
+__________________________________________________________
+
+# First steps:
+Verify Java version in your local machine.
+The first step is to verify if you have the Java 1.8 version installed in your local machine since Java 1.8 is the most stable version and also a essential requirement to use Apache Spark in order to continue with the following steps.
+
+If you use Windows O.S you can verify your Java version through the CMD console as shown below:
+
+![java-version](https://media.github.ibm.com/user/213691/files/579a2d80-91de-11e9-94bb-90e4c354f067)
+
+## 2. Set up Java in your local machine.
+Once you have verified your Java version if java 1.8 has not been installed yet then continue to the following steps:
+
+### Download & install JRE:
+https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+![jre](https://media.github.ibm.com/user/213691/files/29691d80-91df-11e9-8718-d56e573f7bc1)
+
+### Download & install JDK:
+https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html
+![jdk](https://media.github.ibm.com/user/213691/files/2ff79500-91df-11e9-9353-27846522accd)
+
+## 3. Set up environment & Path variables.
+
+In order to avoid dependencies issues you need to set up your local environment variables of your system and create a new one with the name of JAVA_HOME as shown below.
+
+Also you need to add other variable to your PATH named as SPARK_HOME located into your main local machine drive. 
+![variables-entorno](https://media.github.ibm.com/user/213691/files/37b73980-91df-11e9-8933-20c7108d96bb)
+
+# Apache Spark
+Once you are on this point ready to continue to the following steps, make sure you choose Apache Spark 2.3 version as you can see in the image below.
+
+
+Go to the following link to download it:
+
+### Apache Spark website: https://spark.apache.org/downloads.html
+
+![spark-1](https://media.github.ibm.com/user/213691/files/384fd000-91df-11e9-9f01-f69a33b90d7a)
+
+IntelliJ IDEA
+
+Download IntelliJ IDEA Community edition from the following link: https://www.jetbrains.com/idea/download/#section=windows
+![intellij](https://media.github.ibm.com/user/213691/files/ed36bc80-91e0-11e9-8f30-9be947935a13)
+
+
+Once you have installed IntelliJ you need to install the IntelliJ Scala plugin. 
+To do that, navigate to preferences > Plugins > Browse Repositories > search and install Scala.
+![scala-plugin](https://media.github.ibm.com/user/213691/files/ec9e2600-91e0-11e9-8654-b76da7db4734)
+
+
+# Demo - Set up IntelliJ
+Open IntelliJ
+
+
+![intellij-create](https://media.github.ibm.com/user/213691/files/32f38500-91e1-11e9-94a7-1685782f4f87)
+
+Create a project. 
+
+
+![create](https://media.github.ibm.com/user/213691/files/32f38500-91e1-11e9-8b4d-18fc62db9116)
+
+
+3. Name your project and select your appropriate Scala and SBT versions.
+
+SBT 
+
+       1. Select your sbt file as shown below and then open it.
+       
+       
+       
+       2. Add the corresponding dependencies for your project.
+       
+       
+       
+       3. Ensure the changes are imported without problem.
+       
+# Demo - Scala ‘hello world’
+
+In the same project you have, create a Scala class and then run it:
+
+
+
+Run your application.
+
+# Apache Spark
+Once you have followed all the steps before then you are able to test the functionality of Apache Spark in action with the following example:
+
+   ### 1. Add the following text file named shakespeare.txt
+
+   ### 2. Replace your scala code of “hello world” you have previously created for this: 
+   
+Just like when you ran the scala application now do the same with Apache Spark code.
+
+   ### 3. Run PrimerPrograma Scala class. 
+
+This program print the frequency of each word that appears in Shakespeare, the expected output looks like this:
+
+## Results:
+
+
+
+
+______________________________________________________________________________________________________________________________________
+# References.
+
+### Documentation.
+Scala documentation.
+https://docs.scala-lang.org/
+
+### Spark documentation
+https://spark.apache.org/documentation.html
+
+### IntelliJ IDEA documentation
+https://www.jetbrains.com/idea/documentation/
+_________________________________________________________________________
+
+## Guides
+Setting up a Spark Development Environment with Scala
+https://es.hortonworks.com/tutorial/setting-up-a-spark-development-environment-with-scala/
+
+### Spark: How to install on Windows in 5 steps.
+https://medium.com/big-data-engineering/how-to-install-apache-spark-2-x-in-your-pc-e2047246ffc3
+____________________________________________________________
+
+## Tutorials
+(Open Source)
+Spark
+
+### Spark tutorial.
+https://data-flair.training/blogs/spark-tutorials-home/
+
+### Apache Spark and Scala
+https://www.edureka.co/blog/spark-tutorial/
+
+### Scala 
+Scala tutorials.
+https://data-flair.training/blogs/scala-tutorials-home/
+
+(Not Open Source) -  Spark & Scala
+Apache Spark with Scala - (Oreilly) 
+### Introduction and Getting Set Up.
+https://learning.oreilly.com/videos/apache-spark-with/9781787129849/9781787129849-video1_1
+
+### Apache Spark 2 with Scala - Hands On with Big Data! - (Udemy)
+https://www.udemy.com/apache-spark-with-scala-hands-on-with-big-data/learn/v4/overview
+
+
