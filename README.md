@@ -119,11 +119,11 @@ Once you have followed all the steps before then you are able to test the functi
 ### 2. Replace your scala code of “hello world” you have previously created for this: 
 
    
-  import org.apache.spark.{SparkConf, SparkContext}
-  object PrimerPrograma {
+     import org.apache.spark.{SparkConf, SparkContext}
+  
+     object PrimerPrograma {
 
-
-   def main(args: Array[String]) {
+     def main(args: Array[String]) {
 
      //Create a SparkContext to initialize Spark
      val conf = new SparkConf()
@@ -145,8 +145,8 @@ Once you have followed all the steps before then you are able to test the functi
      counts.foreach(println)
      System.out.println("Total words: " + counts.count());
      counts.saveAsTextFile("/tmp/shakespeareWordCount")
-   }
- }
+      }
+     }
 
      
 
