@@ -84,16 +84,16 @@ To do that, navigate to preferences > Plugins > Browse Repositories > search and
 
 ### 1. Select your sbt file as shown below and then open it.
        
-     ![image](https://user-images.githubusercontent.com/50177169/59731624-86c79380-920c-11e9-883f-9881463f353e.png)
+![image](https://user-images.githubusercontent.com/50177169/59731624-86c79380-920c-11e9-883f-9881463f353e.png)
 
        
 ### 2. Add the corresponding dependencies for your project.
        
-    ![image](https://user-images.githubusercontent.com/50177169/59731648-a2cb3500-920c-11e9-95ba-4bc771c43722.png)   
+![image](https://user-images.githubusercontent.com/50177169/59731648-a2cb3500-920c-11e9-95ba-4bc771c43722.png)   
        
 ### 3. Ensure the changes are imported without problem.
        
-     ![image](https://user-images.githubusercontent.com/50177169/59731663-b24a7e00-920c-11e9-82ba-9d488699736f.png)
+![image](https://user-images.githubusercontent.com/50177169/59731663-b24a7e00-920c-11e9-82ba-9d488699736f.png)
 
 ******************************************************************************************************************************************************************************************************************************************************************************
 # Demo - Scala ‘hello world’
@@ -113,17 +113,17 @@ To do that, navigate to preferences > Plugins > Browse Repositories > search and
 # Demo - Apache Spark
 Once you have followed all the steps before then you are able to test the functionality of Apache Spark in action with the following example:
 
-   ### 1. Add the following text file named shakespeare.txt
+### 1. Add the following text file named shakespeare.txt
 ![image](https://user-images.githubusercontent.com/50177169/59731820-4ae0fe00-920d-11e9-9337-4fac9624819f.png)
 
-   ### 2. Replace your scala code of “hello world” you have previously created for this: 
+### 2. Replace your scala code of “hello world” you have previously created for this: 
 
    
-   //First program
-   import org.apache.spark.{SparkConf, SparkContext}
-   object PrimerPrograma {
-   def main(args: Array[String]) {
+  import org.apache.spark.{SparkConf, SparkContext}
+  object PrimerPrograma {
 
+
+   def main(args: Array[String]) {
 
      //Create a SparkContext to initialize Spark
      val conf = new SparkConf()
@@ -145,9 +145,9 @@ Once you have followed all the steps before then you are able to test the functi
      counts.foreach(println)
      System.out.println("Total words: " + counts.count());
      counts.saveAsTextFile("/tmp/shakespeareWordCount")
-     
-        }
+   }
  }
+
      
 
   
