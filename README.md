@@ -44,7 +44,7 @@ https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.
 ### 3. Set up environment & Path variables.
 
 The first thing you will do is to create a folder located on your local C:/ directory as shown below.
-#### 1. In main drive of your PC create a folder named as 'spark'.
+##### 1. In main drive of your PC create a folder named as 'spark'.
 Note: Here is where you will save all your work.
 
        C:\spark
