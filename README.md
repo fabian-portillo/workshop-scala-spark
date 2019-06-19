@@ -80,37 +80,71 @@ SBT
 
        1. Select your sbt file as shown below and then open it.
        
-       
+     ![image](https://user-images.githubusercontent.com/50177169/59731624-86c79380-920c-11e9-883f-9881463f353e.png)
+
        
        2. Add the corresponding dependencies for your project.
        
-       
+    ![image](https://user-images.githubusercontent.com/50177169/59731648-a2cb3500-920c-11e9-95ba-4bc771c43722.png)   
        
        3. Ensure the changes are imported without problem.
        
+     ![image](https://user-images.githubusercontent.com/50177169/59731663-b24a7e00-920c-11e9-82ba-9d488699736f.png)
+
 # Demo - Scala ‘hello world’
 
 In the same project you have, create a Scala class and then run it:
-
+![image](https://user-images.githubusercontent.com/50177169/59731754-0e150700-920d-11e9-97bf-67bf37a0c080.png)
 
 
 Run your application.
+![image](https://user-images.githubusercontent.com/50177169/59731768-1cfbb980-920d-11e9-90b2-5015d1b45e82.png)
 
 # Apache Spark
 Once you have followed all the steps before then you are able to test the functionality of Apache Spark in action with the following example:
 
    ### 1. Add the following text file named shakespeare.txt
-![image](https://user-images.githubusercontent.com/50177169/59731624-86c79380-920c-11e9-883f-9881463f353e.png)
+![image](https://user-images.githubusercontent.com/50177169/59731820-4ae0fe00-920d-11e9-9337-4fac9624819f.png)
 
    ### 2. Replace your scala code of “hello world” you have previously created for this: 
-   
+ 
+import org.apache.spark.{SparkConf, SparkContext}
+object PrimerPrograma {
+
+
+   def main(args: Array[String]) {
+
+
+     //Create a SparkContext to initialize Spark
+     val conf = new SparkConf()
+     conf.setMaster("local")
+     conf.setAppName("Word Count")
+     val sc = new SparkContext(conf)
+
+
+     // Load the text into a Spark RDD, which is a distributed representation of each line of text
+     val textFile = sc.textFile("src/main/shakespeare.txt")
+
+
+     //word count
+     val counts = textFile.flatMap(line => line.split(" "))
+       .map(word => (word, 1))
+       .reduceByKey(_ + _)
+
+
+     counts.foreach(println)
+     System.out.println("Total words: " + counts.count());
+     counts.saveAsTextFile("/tmp/shakespeareWordCount")
+   }
+ }
+  
 Just like when you ran the scala application now do the same with Apache Spark code.
-![image](https://user-images.githubusercontent.com/50177169/59731648-a2cb3500-920c-11e9-95ba-4bc771c43722.png)
+
 
    ### 3. Run PrimerPrograma Scala class. 
+![image](https://user-images.githubusercontent.com/50177169/59731857-6ba95380-920d-11e9-9ac2-181a93909bb5.png)
 
 This program print the frequency of each word that appears in Shakespeare, the expected output looks like this:
-![image](https://user-images.githubusercontent.com/50177169/59731663-b24a7e00-920c-11e9-82ba-9d488699736f.png)
 
 ## Results:
 
