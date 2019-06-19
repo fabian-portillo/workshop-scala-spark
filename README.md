@@ -7,16 +7,18 @@ This is a guide for setting up Scala and Spark environments in your local machin
 This guide has been created for windows users so the configuration may change depending of the O.S you are using.
 
 ## Prerequisites.
-Java 1.8. 
+
+       Java 1.8. 
 
 Install 7-zip tool. (recommended)
 
 ## Requisites.
-Download and install Scala 2.11.12 version.
+       Download and install Scala 2.11.12 version.
 
-Download and install Apache Spark 2.3 version.
+       Download and install Apache Spark 2.3 version.
 
-Install IntelliJ IDEA community edition.
+       Install IntelliJ IDEA community edition.
+       
 ******************************************************************************************************************************************************************************************************************************************************************************
 
 # First steps:
