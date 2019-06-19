@@ -13,10 +13,11 @@ Install 7-zip tool. (Optional)
 Download and install Scala 2.11.12 version.
 Download and install Apache Spark 2.3 version.
 Install IntelliJ IDEA community edition.
-__________________________________________________________
+******************************************************************************************************************************************************************************************************************************************************************************
 
 # First steps:
-Verify Java version in your local machine.
+## Verify Java version in your local machine.
+
 The first step is to verify if you have the Java 1.8 version installed in your local machine since Java 1.8 is the most stable version and also a essential requirement to use Apache Spark in order to continue with the following steps.
 
 If you use Windows O.S you can verify your Java version through the CMD console as shown below:
@@ -41,6 +42,7 @@ In order to avoid dependencies issues you need to set up your local environment 
 Also you need to add other variable to your PATH named as SPARK_HOME located into your main local machine drive. 
 ![variables-entorno](https://media.github.ibm.com/user/213691/files/37b73980-91df-11e9-8933-20c7108d96bb)
 
+******************************************************************************************************************************************************************************************************************************************************************************
 # Apache Spark
 Once you are on this point ready to continue to the following steps, make sure you choose Apache Spark 2.3 version as you can see in the image below.
 
@@ -51,6 +53,7 @@ Go to the following link to download it:
 
 ![spark-1](https://media.github.ibm.com/user/213691/files/384fd000-91df-11e9-9f01-f69a33b90d7a)
 
+******************************************************************************************************************************************************************************************************************************************************************************
 # IntelliJ IDEA
 
 ### Download IntelliJ IDEA Community edition from the following link: https://www.jetbrains.com/idea/download/#section=windows
@@ -61,7 +64,7 @@ Once you have installed IntelliJ you need to install the IntelliJ Scala plugin.
 To do that, navigate to preferences > Plugins > Browse Repositories > search and install Scala.
 ![scala-plugin](https://media.github.ibm.com/user/213691/files/ec9e2600-91e0-11e9-8654-b76da7db4734)
 
-
+******************************************************************************************************************************************************************************************************************************************************************************
 # Demo - Set up IntelliJ
 Open IntelliJ
 
@@ -91,6 +94,7 @@ SBT
        
      ![image](https://user-images.githubusercontent.com/50177169/59731663-b24a7e00-920c-11e9-82ba-9d488699736f.png)
 
+******************************************************************************************************************************************************************************************************************************************************************************
 # Demo - Scala ‘hello world’
 
 In the same project you have, create a Scala class and then run it:
@@ -104,7 +108,8 @@ Run your application
 .
 ![image](https://user-images.githubusercontent.com/50177169/59731768-1cfbb980-920d-11e9-90b2-5015d1b45e82.png)
 
-# Apache Spark
+******************************************************************************************************************************************************************************************************************************************************************************
+# Demo - Apache Spark
 Once you have followed all the steps before then you are able to test the functionality of Apache Spark in action with the following example:
 
    ### 1. Add the following text file named shakespeare.txt
@@ -169,7 +174,8 @@ https://www.jetbrains.com/idea/documentation/
 _________________________________________________________________________
 
 ## Guides
-Setting up a Spark Development Environment with Scala
+
+### Setting up a Spark Development Environment with Scala
 https://es.hortonworks.com/tutorial/setting-up-a-spark-development-environment-with-scala/
 
 ### Spark: How to install on Windows in 5 steps.
