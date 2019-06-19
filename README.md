@@ -42,12 +42,22 @@ https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.
 ### 3. Set up environment & Path variables.
 
 The first thing you will do is to create a folder located on your local C:/ directory as shown below.
+#### 1. In main drive of your PC create a folder named as 'spark'.
+Note: Here is where you will save all your work.
 
        C:\spark
+       
+##### 2. Go to the following link and then download 'winutils.exe'.
+Link: https://sundog-spark.s3-amazonaws.com/winutils.exe
 
+##### 3. In the same directory where you created 'spark' folder before, create a new folder named as 'winutils' the create a folder inside named as 'bin' and there save the 'winutils.exe' you previously downloaded it.
+
+![image](https://user-images.githubusercontent.com/50177169/59736915-360e6580-9221-11e9-82fc-9c78a621f381.png)
+
+##### 4. Set up environment variables.
 In order to avoid dependencies issues you need to set up your local environment variables of your system and create a new one with the name of JAVA_HOME as shown below.
 
-Also you need to add other variable to your PATH named as SPARK_HOME located into your main local machine drive.
+##### 5. Also you need to add other variable to your PATH named as SPARK_HOME located into your main local machine drive.
 
 ![variables-entorno](https://media.github.ibm.com/user/213691/files/37b73980-91df-11e9-8933-20c7108d96bb)
 
@@ -56,11 +66,19 @@ Also you need to add other variable to your PATH named as SPARK_HOME located int
 Once you are on this point ready to continue to the following steps, make sure you choose Apache Spark 2.3 version as you can see in the image below.
 
 
-Go to the following link to download it:
+#### 1. Go to the following link and click on:
 
 ### Apache Spark website: https://spark.apache.org/downloads.html
 
 ![spark-1](https://media.github.ibm.com/user/213691/files/384fd000-91df-11e9-9f01-f69a33b90d7a)
+
+#### 2. Download the first link as shown below:
+
+![image](https://user-images.githubusercontent.com/50177169/59737008-98676600-9221-11e9-816e-beeb047aa49d.png)
+
+#### 3. Now decompress Spark and save it into the folder you created previously named as 'spark'.
+
+![image](https://user-images.githubusercontent.com/50177169/59737248-76221800-9222-11e9-8530-656e78863b78.png)
 
 ******************************************************************************************************************************************************************************************************************************************************************************
 # IntelliJ IDEA
