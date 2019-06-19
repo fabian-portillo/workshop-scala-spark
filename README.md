@@ -8,11 +8,14 @@ This guide has been created for windows users so the configuration may change de
 
 ## Prerequisites.
 Java 1.8. 
+
 Install 7-zip tool. (Optional)
 
 ## Requisites.
 Download and install Scala 2.11.12 version.
+
 Download and install Apache Spark 2.3 version.
+
 Install IntelliJ IDEA community edition.
 ******************************************************************************************************************************************************************************************************************************************************************************
 
