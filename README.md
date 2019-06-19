@@ -16,7 +16,7 @@ Install IntelliJ IDEA community edition.
 ******************************************************************************************************************************************************************************************************************************************************************************
 
 # First steps:
-## Verify Java version in your local machine.
+### 1. Verify Java version in your local machine.
 
 The first step is to verify if you have the Java 1.8 version installed in your local machine since Java 1.8 is the most stable version and also a essential requirement to use Apache Spark in order to continue with the following steps.
 
@@ -24,7 +24,7 @@ If you use Windows O.S you can verify your Java version through the CMD console 
 
 ![java-version](https://media.github.ibm.com/user/213691/files/579a2d80-91de-11e9-94bb-90e4c354f067)
 
-## 2. Set up Java in your local machine.
+### 2. Set up Java in your local machine.
 Once you have verified your Java version if java 1.8 has not been installed yet then continue to the following steps:
 
 ### Download & install JRE:
@@ -35,7 +35,7 @@ https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.
 https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html
 ![jdk](https://media.github.ibm.com/user/213691/files/2ff79500-91df-11e9-9353-27846522accd)
 
-## 3. Set up environment & Path variables.
+### 3. Set up environment & Path variables.
 
 In order to avoid dependencies issues you need to set up your local environment variables of your system and create a new one with the name of JAVA_HOME as shown below.
 
