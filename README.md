@@ -66,44 +66,44 @@ To do that, navigate to preferences > Plugins > Browse Repositories > search and
 
 ******************************************************************************************************************************************************************************************************************************************************************************
 # Demo - Set up IntelliJ
-Open IntelliJ
+### 1. Open IntelliJ
 
 
 ![intellij-create](https://media.github.ibm.com/user/213691/files/32f38500-91e1-11e9-94a7-1685782f4f87)
 
-Create a project. 
+### 2. Create a project. 
 
 
 ![create](https://media.github.ibm.com/user/213691/files/32f38500-91e1-11e9-8b4d-18fc62db9116)
 
 
-3. Name your project and select your appropriate Scala and SBT versions.
+### 3. Name your project and select your appropriate Scala and SBT versions.
 
-SBT 
+## SBT 
 
-       1. Select your sbt file as shown below and then open it.
+### 1. Select your sbt file as shown below and then open it.
        
      ![image](https://user-images.githubusercontent.com/50177169/59731624-86c79380-920c-11e9-883f-9881463f353e.png)
 
        
-       2. Add the corresponding dependencies for your project.
+### 2. Add the corresponding dependencies for your project.
        
     ![image](https://user-images.githubusercontent.com/50177169/59731648-a2cb3500-920c-11e9-95ba-4bc771c43722.png)   
        
-       3. Ensure the changes are imported without problem.
+### 3. Ensure the changes are imported without problem.
        
      ![image](https://user-images.githubusercontent.com/50177169/59731663-b24a7e00-920c-11e9-82ba-9d488699736f.png)
 
 ******************************************************************************************************************************************************************************************************************************************************************************
 # Demo - Scala ‘hello world’
 
-In the same project you have, create a Scala class and then run it:
+### 1. In the same project you have, create a Scala class and then run it:
 
 
 ![image](https://user-images.githubusercontent.com/50177169/59731754-0e150700-920d-11e9-97bf-67bf37a0c080.png)
 
 
-Run your application
+### 2. Run your application
 
 .
 ![image](https://user-images.githubusercontent.com/50177169/59731768-1cfbb980-920d-11e9-90b2-5015d1b45e82.png)
