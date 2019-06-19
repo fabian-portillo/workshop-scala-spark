@@ -94,10 +94,14 @@ SBT
 # Demo - Scala ‘hello world’
 
 In the same project you have, create a Scala class and then run it:
+
+
 ![image](https://user-images.githubusercontent.com/50177169/59731754-0e150700-920d-11e9-97bf-67bf37a0c080.png)
 
 
-Run your application.
+Run your application
+
+.
 ![image](https://user-images.githubusercontent.com/50177169/59731768-1cfbb980-920d-11e9-90b2-5015d1b45e82.png)
 
 # Apache Spark
