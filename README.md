@@ -1,4 +1,4 @@
-### June 17 2019
+##### June 17 2019
 # WORKSHOP - Setup Scala & Spark locally 
 using IntelliJ IDEA
 This is a guide for setting up Scala and Spark environments in your local machine. 
