@@ -9,7 +9,7 @@ This guide has been created for windows users so the configuration may change de
 ## Prerequisites.
 Java 1.8. 
 
-Install 7-zip tool. (Optional)
+Install 7-zip tool. (recommended)
 
 ## Requisites.
 Download and install Scala 2.11.12 version.
@@ -41,9 +41,14 @@ https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.
 
 ### 3. Set up environment & Path variables.
 
+The first thing you will do is to create a folder located on your local C:/ directory as shown below.
+
+       C:\spark
+
 In order to avoid dependencies issues you need to set up your local environment variables of your system and create a new one with the name of JAVA_HOME as shown below.
 
-Also you need to add other variable to your PATH named as SPARK_HOME located into your main local machine drive. 
+Also you need to add other variable to your PATH named as SPARK_HOME located into your main local machine drive.
+
 ![variables-entorno](https://media.github.ibm.com/user/213691/files/37b73980-91df-11e9-8933-20c7108d96bb)
 
 ******************************************************************************************************************************************************************************************************************************************************************************
