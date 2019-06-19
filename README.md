@@ -116,11 +116,11 @@ Once you have followed all the steps before then you are able to test the functi
 ![image](https://user-images.githubusercontent.com/50177169/59731820-4ae0fe00-920d-11e9-9337-4fac9624819f.png)
 
    ### 2. Replace your scala code of “hello world” you have previously created for this: 
- 
-import org.apache.spark.{SparkConf, SparkContext}
-object PrimerPrograma {
 
-
+   
+   //First program
+   import org.apache.spark.{SparkConf, SparkContext}
+   object PrimerPrograma {
    def main(args: Array[String]) {
 
 
@@ -144,8 +144,11 @@ object PrimerPrograma {
      counts.foreach(println)
      System.out.println("Total words: " + counts.count());
      counts.saveAsTextFile("/tmp/shakespeareWordCount")
-   }
+     
+        }
  }
+     
+
   
 Just like when you ran the scala application now do the same with Apache Spark code.
 
