@@ -33,10 +33,12 @@ Once you have verified your Java version if java 1.8 has not been installed yet 
 
 ### Download & install JRE:
 https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+
 ![jre](https://media.github.ibm.com/user/213691/files/29691d80-91df-11e9-8718-d56e573f7bc1)
 
 ### Download & install JDK:
 https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html
+
 ![jdk](https://media.github.ibm.com/user/213691/files/2ff79500-91df-11e9-9353-27846522accd)
 
 ### 3. Set up environment & Path variables.
