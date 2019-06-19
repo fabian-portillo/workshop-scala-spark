@@ -78,6 +78,7 @@ To do that, navigate to preferences > Plugins > Browse Repositories > search and
 
 
 ### 3. Name your project and select your appropriate Scala and SBT versions.
+![image](https://user-images.githubusercontent.com/50177169/59732382-9b595b00-920f-11e9-90e8-7611227c4789.png)
 
 ## SBT 
 
