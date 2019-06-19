@@ -10,7 +10,7 @@ This guide has been created for windows users so the configuration may change de
 
        Java 1.8. 
 
-Install 7-zip tool. (recommended)
+       Install 7-zip tool. (recommended)
 
 ## Requisites.
        Download and install Scala 2.11.12 version.
