@@ -1,4 +1,5 @@
-# workshop-scala-spark
+# WORKSHOP - Setup Scala & Spark locally 
+using IntelliJ IDEA
 This is a guide for setting up Scala and Spark environments in your local machine. 
 
 ## Introduction.
@@ -99,14 +100,17 @@ Run your application.
 Once you have followed all the steps before then you are able to test the functionality of Apache Spark in action with the following example:
 
    ### 1. Add the following text file named shakespeare.txt
+![image](https://user-images.githubusercontent.com/50177169/59731624-86c79380-920c-11e9-883f-9881463f353e.png)
 
    ### 2. Replace your scala code of “hello world” you have previously created for this: 
    
 Just like when you ran the scala application now do the same with Apache Spark code.
+![image](https://user-images.githubusercontent.com/50177169/59731648-a2cb3500-920c-11e9-95ba-4bc771c43722.png)
 
    ### 3. Run PrimerPrograma Scala class. 
 
 This program print the frequency of each word that appears in Shakespeare, the expected output looks like this:
+![image](https://user-images.githubusercontent.com/50177169/59731663-b24a7e00-920c-11e9-82ba-9d488699736f.png)
 
 ## Results:
 
