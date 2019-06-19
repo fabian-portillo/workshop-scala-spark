@@ -50,9 +50,9 @@ Go to the following link to download it:
 
 ![spark-1](https://media.github.ibm.com/user/213691/files/384fd000-91df-11e9-9f01-f69a33b90d7a)
 
-IntelliJ IDEA
+# IntelliJ IDEA
 
-Download IntelliJ IDEA Community edition from the following link: https://www.jetbrains.com/idea/download/#section=windows
+### Download IntelliJ IDEA Community edition from the following link: https://www.jetbrains.com/idea/download/#section=windows
 ![intellij](https://media.github.ibm.com/user/213691/files/ed36bc80-91e0-11e9-8f30-9be947935a13)
 
 
@@ -110,10 +110,9 @@ This program print the frequency of each word that appears in Shakespeare, the e
 
 ## Results:
 
+**********************************************************************************************************************************
+**********************************************************************************************************************************
 
-
-
-______________________________________________________________________________________________________________________________________
 # References.
 
 ### Documentation.
